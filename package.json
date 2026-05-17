@@ -25,10 +25,10 @@
   },
   "license": "MIT",
   "author": "BuzzLead <troy@buzzlead.io> (https://buzzlead.io)",
-  "main": "./dist/src/index.js",
-  "types": "./dist/src/index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "bin": {
-    "territory": "./dist/bin/territory.js"
+    "territory": "dist/bin/territory.js"
   },
   "files": [
     "dist",
