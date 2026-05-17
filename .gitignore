@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+
+# Output CSVs from runs
+prospects.csv
+*.csv
+!examples/*.csv
+
+.vercel/
+.env.local.example

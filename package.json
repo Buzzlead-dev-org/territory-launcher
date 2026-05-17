@@ -1,0 +1,62 @@
+{
+  "name": "@buzzlead/territory-launcher",
+  "version": "0.1.0",
+  "description": "Drop a URL. Get N verified prospects + personalized cold copy as a CSV. Free CLI from BuzzLead.",
+  "keywords": [
+    "cold-email",
+    "outbound",
+    "prospecting",
+    "lead-generation",
+    "b2b",
+    "sales",
+    "cli",
+    "ai-ark",
+    "anthropic",
+    "claude",
+    "buzzlead"
+  ],
+  "homepage": "https://buzzlead.io/resources/free-tools/territory-launcher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buzzlead-dev-org/territory-launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Buzzlead-dev-org/territory-launcher/issues"
+  },
+  "license": "MIT",
+  "author": "BuzzLead <troy@buzzlead.io> (https://buzzlead.io)",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "bin": {
+    "territory": "./dist/bin/territory.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    ".env.example"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx bin/territory.ts",
+    "prepublishOnly": "npm run build",
+    "test:run": "tsx bin/territory.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "exa-js": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
