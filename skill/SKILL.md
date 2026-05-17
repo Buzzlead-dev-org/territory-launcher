@@ -1,6 +1,6 @@
 ---
 name: territory-launcher
-description: Generate N verified B2B prospects with personalized cold email copy from a company URL. Trigger on phrases like "launch a territory", "territory launcher", "run territory for [URL]", "/territory-launcher", or any request to "generate cold outreach for [company]" or "build a prospect list for [URL]".
+description: Generate verified B2B prospects with personalized cold email copy from a company URL. Trigger on "launch a territory", "run territory for [URL]", or any cold outreach prospecting request.
 ---
 
 # Territory Launcher Skill
